@@ -1,0 +1,2301 @@
+body {margin:0;}
+*{
+  font-family: 'Roboto', sans-serif;
+font-family: 'Ropa Sans', sans-serif;
+}
+body {
+  overflow-x: hidden; 
+}
+/* Styling for navigation bar starts here*/
+
+.column0-navbar{
+  float: left;
+  width: 5%;
+  height: 159px; /* Should be removed. Only for demonstration */
+}
+.column1-navbar {
+  float: left;
+  width: 10%;
+  height: 159px; /* Should be removed. Only for demonstration */
+}
+.column2-navbar {
+  float: left;
+  width: 85%;
+  height: 159px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row-navbar:after {
+  content: "";
+display: table;
+  clear: both;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: olive;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content1 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+/* Styling for navigation bar ends here*/
+
+/* Styling for homepage1 starts here */
+.homepage1 {
+  height: 400px;
+  background-image: url('h1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+/* Styling for homepage1 ends here */
+
+/* Styling for quote1 starts here */
+.text-block {
+    margin-left: auto;
+    margin-right: auto;
+    align-self: bottom;
+    width: 50%;
+    padding: 10px;
+    height:250px;
+    width: 500px;
+    opacity: 10;
+    background-color: rgba(173, 123, 13, 0.781);
+    color: white;
+  }
+  .text-block h1{
+      font-family: Garamond, serif;
+      font-size: 50px;
+      text-align: center;
+  }
+  .text-block p{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 50px;
+  }
+/* Styling for quote1 ends here */
+
+/*Styling for learn online div starts here*/
+.lonline {
+  height: 80%;
+  width: 100%;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+.lo1 {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.lo1 h1{
+  font-size: 35px;
+}
+.lo1 p{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+}
+.lo2 {
+  float: left;
+  width: 40%;
+}
+.lo2 video{
+  height: 600px;
+  width: 830px;
+}
+/*Styling for learn online div ends here*/
+
+/* Styling for homepage3head starts here */
+.homepage3head{ 
+  height: 16%;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Garamond, serif;
+}
+.homepage3head text{
+padding: 0%;
+font-family: 'Brush Script MT', cursive;
+font-size: 50px;
+text-align: center;
+}
+/* Styling for homepage3head starts here */
+
+/* Styling for homepage3 starts here */
+.column {
+    float: left;
+    height: 55%;
+    width: 25%;
+  }
+
+.homepage3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.homepage3 img {
+  display: block;
+  margin-top:10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: 35%;
+  
+}
+.homepage3 h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.homepage3 p {
+  text-align: center;
+  font-size: 25px;
+}
+.btn1 {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #5f3601e8;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  }
+  .btn1:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+/* Styling for homepage3 ends here */
+
+/* Styling for homepage4 starts here */
+.homepage4 {
+    height: 500px;
+    width: 100%;
+    background-image: url('cheap_diagonal_fabric.png');
+    color: white;
+}
+.boxcol1 {
+  float: left;
+  width: 50%;
+  
+}
+
+.boxcol1 p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.boxcol1 img {
+  height: 100%;
+  width: 100%;
+}
+.boxcol2 {
+  text-align: center;
+  float: left;
+  width: 40%;
+}
+.boxcol2 h1{
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  color:black;
+  font-size: 50px;
+}
+.boxcol2 p{
+  text-align: center;
+  font-size: 25px;
+  color:black;
+
+}
+
+/* Styling for homepage4 ends here */
+
+/* Styling for homepage5 starts here */
+.homepage5 {
+  height: 650px;
+  width: 100%;
+  background-image: url('cheap_diagonal_fabric.png');
+  text-align: center;
+}
+.homepage5 b{
+  text-align: center;
+  font-size: 35px;
+}
+.homepage5 text{
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card img{
+  height: 150px;
+  width: 250px;
+}
+
+
+/* Styling for homepage5 ends here */
+
+/* Styling for footercol starts here */
+
+.footercol {
+  float: left;
+  height: 20%;
+  width: 33.33%;
+  font-size: 18px;
+  color: #111;
+  text-decoration: none;
+}
+.footer3 a{
+  text-decoration: none;
+}
+.footercol a{
+    text-decoration: none;
+}
+.footercol h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+  text-decoration: none;
+}
+.footercol p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+  text-decoration: none;
+}
+.footercol img {
+  height: 50px;
+  width: 50px;
+}
+.social{
+  padding-top: 20px;
+  height: 120px;
+  box-shadow: 0px -15px 10px -15px #111;
+}
+.social img{
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 20px;
+  
+}
+.footer3{
+  box-shadow: 0px -15px 10px -15px #111;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* Styling for footercol ends here */
+
+/* Styling for FARMBOX.HTML starts here */
+.fb1 {
+  height: 720px;
+  background-image: url('shop2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+}
+.fb1 h1{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-style: bold;
+}
+
+.fb3{
+  height: 110px;
+  background-color:#778a3f;
+}
+.fb3 p{
+  line-height: 1px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  top: 50%;
+}
+.fb4{
+  height: 700px;
+  width: 100%;
+  background-image: url('subtle_white_mini_waves.png');
+  padding: 20px;
+}
+.fb5{
+  height: 700px;
+  width: 100%;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  color: white;
+  font-size: 23px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+  }
+}
+
+/* Float four columns side by side */
+.column3 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row3 {margin: 0 -5px;}
+
+
+/* Clear floats after the columns */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column3 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card3 p{
+  text-align: justify;
+  font-size: 25px;
+}
+.card3 h3{
+  font-size: 30px;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card3 img{
+  height: 320px;
+  width: 320px;
+}
+
+/* Styling for fb5 starts here */
+
+.fb5 h1{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 80px;
+  text-align: center;
+  color: #5f3601e8;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic; font-size: 28px;}
+
+/* Add a blue color to the author */
+.author {color: #5f3601e8;}
+
+/* Styling for fb5 ends here */
+
+.dottedline{
+  background-image: url('cheap_diagonal_fabric.png');
+}
+
+/*Styling for box 1 starts here */
+.b1{
+  height: 200px;
+  background-image: url('mixed_fruits_and_veggies.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+
+.b2{
+  height: 600px;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+marquee{
+  color: red;
+  font-size: 25px;
+}
+/* Create two equal columns that floats next to each other */
+.column4 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column4 h3{
+  color: rgb(94, 90, 90);
+  font-size: 30px;
+}
+.column4 h2{
+font-size: 40px;
+color: rgb(155, 0, 52);
+line-height: 2px;
+}
+.para{
+  font-size: 28px;
+}
+
+
+/* Clear floats after the columns */
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img2 {
+  height: 500px;
+  width: 650px;
+  float: right;
+  padding-top: 20px;
+}
+.size{
+  height: 50px;
+  width: 450px;
+  font-size: 25px;
+}
+
+.b3 {
+  height: 1300px;
+  background-image: url('subtle_white_mini_waves.png');
+  padding: 20px;
+}
+.b3 h4{
+font-size: 25px;
+color: rgb(94, 90, 90);
+line-height: 2px;
+text-align: center;
+}
+.b3 h2{
+font-size: 40px;
+color: rgb(155, 0, 52);
+line-height: 1px;
+text-align: center;
+}
+.b3 p{
+  text-align: center;
+}
+.b4 {
+  height: 900px;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+.b4  h1{
+font-size: 40px;
+text-align: center;
+color: rgb(155, 0, 52);
+line-height: 1px;
+}
+.b4 h4{
+  font-size: 25px;
+  color: rgb(94, 90, 90);
+  line-height: 2px;
+  text-align: center;
+  }
+
+  .b4 p{
+    text-align: center;
+    font-size: 25px;
+  }
+
+.bb1{
+  height: 200px;
+  background-image: url('fruits_only.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+.bb3 {
+  height: 900px;
+  background-image: url('subtle_white_mini_waves.png');
+}
+.bb3 h4{
+font-size: 30px;
+color: rgb(94, 90, 90);
+line-height: 2px;
+text-align: center;
+}
+.bb3 h2{
+font-size: 40px;
+color: rgb(155, 0, 52);
+line-height: 1px;
+text-align: center;
+}
+.bb3 p{
+  text-align: center;
+  font-size: 25px;
+}
+
+.bbb1{
+  height: 200px;
+  background-image: url('veggies_only.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+.bbb3 {
+  height: 980px;
+  background-image: url('subtle_white_mini_waves.png');
+}
+.bbb3 h4{
+font-size: 30px;
+color: rgb(94, 90, 90);
+line-height: 2px;
+text-align: center;
+}
+.bbb3 h2{
+font-size: 40px;
+color: rgb(155, 0, 52);
+line-height: 1px;
+text-align: center;
+}
+.bbb3 p{
+  text-align: center;
+}
+.bbbb1{
+  height: 200px;
+  background-image: url('snack_pack.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+.bbbb3 {
+  height: 870px;
+  background-image: url('subtle_white_mini_waves.png');
+}
+.bbbb3 h4{
+font-size: 30px;
+color: rgb(94, 90, 90);
+line-height: 2px;
+text-align: center;
+}
+.bbbb3 h2{
+font-size: 40px;
+color: rgb(155, 0, 52);
+line-height: 1px;
+text-align: center;
+}
+.bbbb3 p{
+  text-align: center;
+}
+/*Styling for Payment form starts here*/
+.row5 {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col1-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col1-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col1-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col1-25,
+.col1-50,
+.col1-75 {
+  padding: 0 16px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn5 {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #5f3601e8;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  }
+  .btn5:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row5 {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+/*Styling for payment form ends here */
+
+/* Styling for FARMBOX.HTML ends here */
+
+/* Styling for GIFT.HTML starts here */
+
+.gift1 {
+  height: 450px;
+  background-image: url('gift1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+}
+.gift2{
+  height: 220px;
+  background-color:#778a3f;
+}
+.gift2 h1{
+  line-height: 0.5;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.gift2 h2{
+  line-height: 0.5;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.gift2 p{
+  line-height: 0.5;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.img3 img{
+  height: 100px;
+  width: 100px;
+}
+#c1 input{
+  height: 80px;
+  width: 400px;
+  font-family: Garamond, serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.gift3{
+  height: 730px;
+  background-image: url('subtle_white_mini_waves.png');
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+
+.gift4 {
+  height: 850px;
+  background-color: #b8af98;
+}
+
+.column6 {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row6 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column6 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card6 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 750px;
+  height: 600px;
+}
+
+.column10 {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row10:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#email-1{
+  text-align: left;
+}
+#email-1 h2{
+  color: #778a3f;
+  font-size: 35px;
+}
+#email-1 p{
+  font-size: 20px;
+  padding-top: 1px;
+}
+#email-1 input{
+  font-size: 20px;
+}
+#tag-1{
+  text-align: left;
+}
+#tag-1 h2{
+  color: #778a3f;
+  font-size: 35px;
+}
+#tag-1 p{
+  font-size: 20px;
+  padding-top: 1px;
+}
+#tag-1 input{
+  font-size: 20px;
+}
+
+.gift5{
+  height: 900px;
+  background-image: url('cheap_diagonal_fabric.png');
+  font-family: 'Trebuchet MS', sans-serif;
+}
+.gift5 h1{
+  font-size: 35px;
+  color: #778a3f;
+}
+.row5{
+  font-size: 20px;
+}
+.card11 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 60%;
+  border-radius: 5px;
+  height: 650px;
+  background-image: url('subtle_white_mini_waves.png');
+}
+
+.card11:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container11 {
+  padding: 2px 16px;
+}
+
+
+
+
+
+
+/*Styling for receipes page*/
+.rec{
+  height: 550px;
+  width: 100%;
+}
+
+.rec img{ 
+  height: 550px;
+  width: 100%;
+}
+
+.rec2{
+  height: 910px;
+  background-image: url('cheap_diagonal_fabric.png');
+  
+}
+
+
+/* Create three equal columns that floats next to each other */
+.rcolumn {
+  float: left;
+  width: 33.33%;
+  padding: 60px;
+  height: 480px;
+  background-image: url('cheap_diagonal_fabric.png');
+
+  
+}
+
+/* Clear floats after the columns */
+.rrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rcard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 110%;
+  height: 400px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+.rcard p{
+  text-align: justify;
+}
+
+.rcard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.rcontainer {
+  padding: 2px 16px;
+}
+.rcontainer p{
+  font-size: 22px;
+}
+
+
+.link{
+  text-decoration: none;
+  }
+
+.name1{
+  color: black;
+  font-size: 25px;
+}
+
+.card p{
+  font-size: 22px;
+}
+
+/*Third row*/
+* {
+  box-sizing: border-box;
+}
+
+
+.column-receipe-main {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  height: 940px; /* Should be removed. Only for demonstration */
+  background-image: url('cheap_diagonal_fabric.png');
+}
+
+/* Clear floats after the columns */
+.row-receipe-main:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+
+
+.column-receipe2-main {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  height: 1200px; /* Should be removed. Only for demonstration */
+  background-image: url('cheap_diagonal_fabric.png');
+}
+
+/* Clear floats after the columns */
+.row-receipe2-main:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+.column-receipe2-main h3{
+  font-size: 30px;
+  }
+  .column-receipe2-main p{
+    font-size: 25px;
+    }
+
+    .column-receipe3-main {
+      float: left;
+      width: 50%;
+      padding: 30px;
+      height: 1200px; /* Should be removed. Only for demonstration */
+      background-image: url('cheap_diagonal_fabric.png');
+    }
+    
+    /* Clear floats after the columns */
+    .row-receipe3-main:after {
+      content: "";
+      display: table;
+      clear: both;
+      background-image: url('cheap_diagonal_fabric.png');
+    }
+    .column-receipe3-main h3{
+      font-size: 30px;
+      }
+      .column-receipe3-main p{
+        font-size: 25px;
+        }
+
+
+        .column-receipe5-main {
+          float: left;
+          width: 50%;
+          padding: 30px;
+          height: 1200px; /* Should be removed. Only for demonstration */
+          background-image: url('cheap_diagonal_fabric.png');
+        }
+        
+        /* Clear floats after the columns */
+        .row-receipe5-main:after {
+          content: "";
+          display: table;
+          clear: both;
+          background-image: url('cheap_diagonal_fabric.png');
+        }
+        .column-receipe5-main h3{
+          font-size: 30px;
+          }
+          .column-receipe5-main p{
+            font-size: 25px;
+            }
+
+
+            .column-receipe6-main {
+              float: left;
+              width: 50%;
+              padding: 30px;
+              height: 1200px; /* Should be removed. Only for demonstration */
+              background-image: url('cheap_diagonal_fabric.png');
+            }
+            
+            /* Clear floats after the columns */
+            .row-receipe6-main:after {
+              content: "";
+              display: table;
+              clear: both;
+              background-image: url('cheap_diagonal_fabric.png');
+            }
+            .column-receipe6-main h3{
+              font-size: 30px;
+              }
+              .column-receipe6-main p{
+                font-size: 25px;
+                }
+
+
+                
+        .column-receipe7-main {
+          float: left;
+          width: 50%;
+          padding: 30px;
+          height: 1100px; /* Should be removed. Only for demonstration */
+          background-image: url('cheap_diagonal_fabric.png');
+        }
+        
+        /* Clear floats after the columns */
+        .row-receipe7-main:after {
+          content: "";
+          display: table;
+          clear: both;
+          background-image: url('cheap_diagonal_fabric.png');
+        }
+        .column-receipe7-main h3{
+          font-size: 30px;
+          }
+          .column-receipe7-main p{
+            font-size: 25px;
+            }
+
+            
+                
+        .column-receipe8-main {
+          float: left;
+          width: 50%;
+          padding: 30px;
+          height: 1100px; /* Should be removed. Only for demonstration */
+          background-image: url('cheap_diagonal_fabric.png');
+        }
+        
+        /* Clear floats after the columns */
+        .row-receipe8-main:after {
+          content: "";
+          display: table;
+          clear: both;
+          background-image: url('cheap_diagonal_fabric.png');
+        }
+        .column-receipe8-main h3{
+          font-size: 30px;
+          }
+          .column-receipe8-main p{
+            font-size: 25px;
+            }
+
+            .column-receipe9-main {
+              float: left;
+              width: 50%;
+              padding: 30px;
+              height: 700px; /* Should be removed. Only for demonstration */
+              background-image: url('cheap_diagonal_fabric.png');
+            }
+            
+            /* Clear floats after the columns */
+            .row-receipe9-main:after {
+              content: "";
+              display: table;
+              clear: both;
+              background-image: url('cheap_diagonal_fabric.png');
+            }
+            .column-receipe9-main h3{
+              font-size: 30px;
+              }
+              .column-receipe9-main p{
+                font-size: 25px;
+                }
+
+
+/*Cranberry Muffins*/
+.column-receipe-main h3{
+font-size: 30px;
+}
+.column-receipe-main p{
+  font-size: 25px;
+  }
+.content8  h1{
+font-size: 35px;
+}
+.c1{
+  height: 580px;
+ 
+}
+
+.c1 img{
+  height: 580px;
+  width: 100%;
+}
+
+.c11{
+  background-color: rgba(126, 84, 7, 0.753);
+  height: 22%;
+  text-align: center;
+}
+
+.c1 h3{
+  text-align: center;
+  font-size: 50px;
+  top:10%;
+}
+
+
+
+
+.c1 .content {
+  position: absolute;
+  bottom: 100px;
+  background: rgb(73, 45, 7); /* Fallback color */
+  background: rgba(73, 45, 7, 0.8); /* Black background with 0.5 opacity */
+  color: rgb(235, 219, 195);
+  width: 50%;
+  height: 80px;
+  text-align: center;
+ 
+ 
+}
+
+.alert {
+  padding: 20px;
+  background-color: #387c2a;
+  color:whitesmoke;
+  float: left;
+  font-size: 20px;
+  
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+/*CARROT CHIPS*/
+.r3{
+  height: 580px;
+ 
+}
+
+.r3 img{
+  height: 580px;
+  width: 100%;
+}
+
+.r3 .content {
+  position: absolute;
+  bottom: 100px;
+  background: rgb(73, 45, 7); /* Fallback color */
+  background: rgba(73, 45, 7, 0.8); /* Black background with 0.5 opacity */
+  color: rgb(235, 219, 195);
+  width: 50%;
+  height: 80px;
+  text-align: center;
+}
+
+
+
+/*CARROT OATMEAL COOKIES*/
+.r8 .content8 {
+  position: absolute;
+  bottom:100px;
+  background: rgb(73, 45, 7); /* Fallback color */
+  background: rgba(73, 45, 7, 0.8); /* Black background with 0.5 opacity */
+  color: rgb(235, 219, 195);
+  width: 50%;
+  height: 80px;
+  text-align: center;
+}
+
+.r8{
+  height: 580px;
+ 
+}
+
+.r8 img{
+  height: 580px;
+  width: 100%;
+}
+
+/*CREAMY BROCCOLI AND ASPARAGUS SOUP*/
+
+.r4{
+    height: 580px;
+}
+
+.r4 img{
+  height: 580px;
+  width: 100%;
+}
+
+.r4 .content4 {
+  position:absolute;
+  bottom:100px;
+  background: rgb(73, 45, 7); /* Fallback color */
+  background: rgba(73, 45, 7, 0.8); /* Black background with 0.5 opacity */
+  color: rgb(235, 219, 195);
+  width: 57%;
+  height: 89px;
+  text-align: center;
+}
+
+
+/*CREAMY BROCCOLI AND ASPARAGUS SOUP*/
+
+/* Styling for learn online i.e FIELD CROPS*/
+
+
+/*Field crop-1 starts here*/
+.fc-main{
+  height: 1000px;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+
+.fc1{
+  height: 420px;
+  width: 100%;
+  background-image:
+  linear-gradient(to bottom, rgba(8, 5, 1, 0.52), rgba(8, 5, 1,0.73)),
+  url('fc1.jpg');
+  color: rgb(255, 255, 255);
+}
+
+.fc111{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.fc111  .content1{
+  text-decoration: bold;
+  font-size: 70px;
+  border: 1px solid rgb(221, 214, 214);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;  
+  padding: 20px;
+  text-align: left;
+  color: rgb(128, 72, 0);
+  height: 100px;
+  width: 98%;
+  background-image: url('subtle_white_mini_waves.png');
+}
+
+.column-fc-main {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  height: 500px; /* Should be removed. Only for demonstration */
+  background-image: url('cheap_diagonal_fabric.png');
+}
+.column-fc-main h1{
+font-size: 40px;
+text-align: justify;
+}
+.column-fc-main p{
+  font-size: 25px;
+  text-align: justify;
+  }
+
+/* Clear floats after the columns */
+.row-fc-main:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+.column-fc-main img{
+height: 400px;
+width: 800px;
+}
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 49px;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  position: -webkit-sticky;
+}
+
+.fc1 h1{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.fc11  .content{
+  text-decoration: bold;
+  font-size: 28px;
+  border: 1px solid rgb(221, 214, 214);
+  box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;  
+  padding: 20px;
+  text-align: left;
+  color: #4aa738;
+  height: 5700px;
+  width: 98%;
+  background-color: rgb(241, 241, 241);
+}
+.fc1-main{
+  background-image: url('cheap_diagonal_fabric.png');
+}
+
+
+.fcc1{
+  color: #333;
+  font-size: 25px;
+}
+
+.b{
+  font-size: 30px;
+}
+
+.img1{
+  height: 480px;
+  padding-left: 270px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: rgb(80, 79, 79);
+  font-size: 14px;
+}
+
+.fcc2{
+  color:black;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.b11{
+  color: #333;
+  font-size: 25px;
+}
+
+.fcc22{
+  color:black;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.last{
+  color: black;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+hr.hr{
+  border-top: 1px solid rgb(221, 214, 214);
+}
+
+/*Field crops-1 ends here*/
+
+/*Field crop-2 starts here*/
+
+.fc2{
+  height: 420px;
+  width: 100%;
+  background-image:
+  linear-gradient(to bottom, rgba(8, 5, 1, 0.52), rgba(8, 5, 1,0.73)),
+  url('fc22.jpg');
+  color: rgb(255, 255, 255);
+}
+
+div .desc2 {
+  
+  text-align: center;
+  color: rgb(80, 79, 79);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.img2{
+  height: 500px;
+  padding-left: 230px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  font-size: 22px;
+}
+
+th{
+  background-color: #f3efef;
+}
+
+
+.t1{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  font-size: 25px;
+}
+
+.fc22 .content2
+{
+ 
+    text-decoration: bold;
+    font-size: 30px;
+    border: 1px solid rgb(221, 214, 214);
+    box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;  
+    padding: 20px;
+    text-align: left;
+    color: #4aa738;
+    height: 7400px;
+    width: 98%;
+    background-color: rgb(241, 241, 241);
+  }
+  
+  .references{
+    color: orange;
+    font-size: 20px;
+  }
+
+  /*Field crops-2 ends here*/
+
+  /*Field crops-3 starts here*/
+  .fc3{
+    height: 420px;
+    width: 100%;
+    background-image:
+    linear-gradient(to bottom, rgba(8, 5, 1, 0.52), rgba(8, 5, 1,0.73)),
+    url('fc3.jpg');
+}
+.img2{
+  height: 400px;
+}
+
+.fc33 .content3{
+  text-decoration: bold;
+  font-size: 25px;
+  border: 1px solid rgb(221, 214, 214);
+  box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;  
+  padding: 20px;
+  text-align: left;
+  color: #4aa738;
+  height: 10200px;
+  width: 98%;
+  background-color: rgb(241, 241, 241);
+}
+
+.references1{
+  color: orange;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+  /*Field crops-3 ends here*/
+  /*Field crop main page starts here*/
+
+  .fieldc{
+    height: 200px;
+    width: 100%;
+    background-image:
+    linear-gradient(to bottom, rgba(87, 81, 73, 0.52), rgba(87, 81, 73,0.73)),
+    url('fcc1.jpg');
+}
+
+
+
+.fcinfo{
+  height: 400px;
+  padding:90px;
+  padding-top: 10px;
+}
+/* Create three equal columns that floats next to each other */
+.fccolumn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 500px; 
+}
+
+/* Clear floats after the columns */
+.fcrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.fchome {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 320px;
+  height: 430px;
+  left: 20px;
+  
+}
+
+div.fchome img {
+  width: 100%;
+  height:300px ;
+}
+
+div.desc {
+  padding: 3px;
+  font-size: 20px;
+  padding-top: 12px;
+  
+}
+
+.p1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4a504a;
+}
+
+/*Styling for fieldcrops main page ends here*/
+/* Styling for learn online i.e category  FIELD CROPS ends here*/
+
+/* Styling for learn online i.e category HORTICULTURE starts here*/
+
+/*Styling for horticulture main page starts here*/
+.horticulture{
+  height: 200px;
+  width: 100%;
+  background-image:
+  linear-gradient(to bottom, rgba(87, 81, 73, 0.52), rgba(87, 81, 73,0.73)),
+  url('horticul.jpg');
+}
+
+/* Styling for learn online i.e category HORTICULTURE starts here*/
+
+
+  
+  /*Horticulture starts here*/
+  .horti-main{
+    background-image: url('cheap_diagonal_fabric.png');
+    height: 8000;
+  }
+  .hc1{
+    height: 420px;
+    width: 100%;
+    background-size: 100%;
+    background-image:
+    linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(46, 42, 38, 0.73)),
+    url('h11.jpg');
+    color: rgb(255, 255, 255);
+  }
+  
+  div .desc2 {
+    
+    text-align: center;
+    color: rgb(80, 79, 79);
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .imgfc2{
+    height: 500px;
+    padding-left: 230px;
+  }
+  
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  th{
+    background-color: #f3efef;
+  }
+  
+  
+  .t1{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  .fc22-hor .content2-hor
+  {
+    background-color: rgb(241, 241, 241);
+      text-decoration: bold;
+      font-size: 25px;
+      border: 1px solid rgb(221, 214, 214);
+      box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin: auto;  
+      padding: 20px;
+      text-align: left;
+      color: rgb(4, 136, 15);
+      height: 8000px;
+      width: 98%;
+    }
+    
+    .references-hor{
+      color: orange;
+      font-size: 20px;
+    }
+  
+   
+  
+    /*Horticultire-1 ends here*/
+  
+    /*Horticultire-2 starts here*/
+    .horti2-main{
+      background-image: url('cheap_diagonal_fabric.png');
+      height: 5700px;
+    }
+    .hc2{
+      height: 420px;
+      width: 100%;
+      background-image:
+      linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(46, 42, 38, 0.73)),
+      url('hc2.jpg');
+      color: rgb(255, 255, 255);
+    }
+    .xc-hort .xc2-hort{
+        text-decoration: bold;
+        font-size: 25px;
+        border: 1px solid rgb(221, 214, 214);
+        box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: auto;  
+        padding: 20px;
+        text-align: left;
+        color: rgb(4, 136, 15);
+        height: 5800px;
+        width: 98%;
+        background-color: rgb(241, 241, 241);
+      }
+      /*Horticultire-2 ends here*/
+  
+      /*Horticultire-3 starts here*/
+      .horti3-main{
+        background-image: url('cheap_diagonal_fabric.png');
+        height: 6700px;
+      }
+  .hc3{
+  height: 420px;
+  width: 100%;
+  background-size: 100%;
+  background-image:
+  linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(46, 42, 38, 0.73)),
+  url('hc3.jpg');
+  color: rgb(255, 255, 255);
+  }
+  
+  .hort3 .hcc3
+  {
+    background-color: rgb(241, 241, 241);
+  text-decoration: bold;
+  font-size: 25px;
+  border: 1px solid rgb(221, 214, 214);
+  box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;  
+  padding: 20px;
+  text-align: left;
+  color: rgb(4, 136, 15);
+  height: 6800px;
+  width: 98%;
+  }
+  /*Horticultire-3 ends here*/
+  
+  /*Horticultire-4 starts here*/
+  .horti4-main{
+    background-image: url('cheap_diagonal_fabric.png');
+    height: 4700;
+  }
+  .hc4{
+    height: 420px;
+    width: 100%;
+    background-size: 100%;
+    background-image:
+    linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(46, 42, 38, 0.73)),
+    url('hc4.jpg');
+    color: rgb(255, 255, 255);
+    width: 100%;
+    }
+  
+  
+    .hort4 .hcc4  {
+      background-color: rgb(241, 241, 241);
+    text-decoration: bold;
+    font-size: 25px;
+    border: 1px solid rgb(221, 214, 214);
+    box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;  
+    padding: 20px;
+    text-align: left;
+    color: rgb(4, 136, 15);
+    height: 4800px;
+    width: 98%;
+    }
+  /*Horticultire-4 ends here*/
+/*Styling for horticulture main page ends here*/
+
+/*Styling for Animal Husbandry category starts here*/
+.column-anim-main {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  height: 500px; /* Should be removed. Only for demonstration */
+  background-image: url('cheap_diagonal_fabric.png');
+}
+
+/* Clear floats after the columns */
+.row-anim-main:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+
+.column-anim-main img{
+height: 400px;
+width: 800px;
+}
+.column-anim-main p h1{
+  text-align: justify;
+}
+.column-anim-main p{
+  font-size: 25px;
+}
+.column-anim-main h1{
+  font-size: 40px;
+}
+
+/*Animal husbandry-1 starts here*/
+.ani-h-main{
+  background-image: url('cheap_diagonal_fabric.png');
+  height: 7600px;
+}
+.ah1{
+  height: 420px;
+  width: 100%;
+  background-size: 100%;
+  background-image:
+  linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(46, 42, 38, 0.73)),
+  url('ah-1.jpg');
+  color: rgb(255, 255, 255);
+  width: 100%;
+  }
+
+.ah-1 .ahu-1  {
+text-decoration: bold;
+font-size: 25px;
+border: 1px solid rgb(221, 214, 214);
+box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin: auto;  
+padding: 20px;
+text-align: left;
+color: rgb(4, 136, 15);
+height: 7000px;
+width: 98%;
+background-color: rgb(241, 241, 241);
+}
+
+.ah2{
+  color:black;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+
+/*Animal husbandry-1 endss here*/
+
+/*Animal husbandry-2 starts here*/
+.ani-h2-main{
+  height: 6200px;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+.ah2{
+  height: 420px;
+  width: 100%;
+  background-size: 100%;
+  background-image:
+  linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(46, 42, 38, 0.73)),
+  url('ah-2.jpg');
+  color: rgb(255, 255, 255);
+  width: 100%;
+  }
+
+  .ah-2 .ahu-2  {
+    text-decoration: bold;
+    font-size: 25px;
+    border: 1px solid rgb(221, 214, 214);
+    box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;  
+    padding: 20px;
+    text-align: left;
+    color: rgb(4, 136, 15);
+    height: 6100px;
+    width: 98%;
+    background-color: rgb(241, 241, 241);
+  }
+
+/*Animal husbandry-2 ends here*/
+
+/*Animal husbandry-3 starts here*/
+.ani-h3-main{
+  height: 4200px;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+.ah3{
+  height: 420px;
+  width: 100%;
+  background-size: 100%;
+  background-image:
+  linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(46, 42, 38, 0.73)),
+  url('ah-3.jpg');
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.ah-3 .ahu-3  {
+  text-decoration: bold;
+  font-size: 25px;
+  border: 1px solid rgb(221, 214, 214);
+  box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;  
+  padding: 20px;
+  text-align: left;
+  color: rgb(4, 136, 15);
+  height: 4300px;
+  width: 98%;
+  background-color: rgb(241, 241, 241);
+}
+
+/*Animal husbandry-3 ends here*/
+/*Styling for Animal Husbandry category ends here*/
+
+/*Styling for Organic Farming category starts here*/
+/*Organic Farming-1 ends here*/
+.orf-main{
+    background-image: url('cheap_diagonal_fabric.png');
+    height: 4700;
+}
+.of1{
+  height: 420px;
+  width: 100%;
+  background-size: 100%;
+  background-image:
+  linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(46, 42, 38, 0.73)),
+  url('of-1.jpg');
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.of-1 .ofa-1  {
+  text-decoration: bold;
+  font-size: 25px;
+  border: 1px solid rgb(221, 214, 214);
+  box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;  
+  padding: 20px;
+  text-align: left;
+  color: rgb(4, 136, 15);
+  height: 4690px;
+  width: 98%;
+  background-color: rgb(241, 241, 241);
+}
+
+/*Organic Farming-1 ends here*/
+
+/*Organic Farming-2 starts here*/
+.orf2-main{
+  background-image: url('cheap_diagonal_fabric.png');
+  height: 5200px;
+}
+.of2{
+  height: 420px;
+  width: 100%;
+  background-size: 100%;
+  background-image:
+  linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(46, 42, 38, 0.73)),
+  url('of-2.jpg');
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.of-2 .ofa-2  {
+  text-decoration: bold;
+  font-size: 25px;
+  border: 1px solid rgb(221, 214, 214);
+  box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;  
+  padding: 20px;
+  text-align: left;
+  color: rgb(4, 136, 15);
+  height: 5200px;
+  width: 98%;
+  background-color: rgb(241, 241, 241);
+}
+/*Organic Farming-2 ends here*/
+
+/*Organic Farming-3 starts here*/
+.orf3-main{
+  background-image: url('cheap_diagonal_fabric.png');
+  height: 6300px;
+}
+.of3{
+  height: 420px;
+  width: 100%;
+  background-size: 100%;
+  background-image:
+  linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(46, 42, 38, 0.73)),
+  url('of-3.jpg');
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.of-3 .ofa-3  {
+  text-decoration: bold;
+  font-size: 25px;
+  border: 1px solid rgb(221, 214, 214);
+  box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;  
+  padding: 20px;
+  text-align: left;
+  color: rgb(4, 136, 15);
+  height: 6300px;
+  width: 98%;
+  background-color: rgb(241, 241, 241);
+}
+/*Organic Farming-3 ends here*/
+/*Styling for Organic Farming category ends here*/
+
+
+/*Styling for terms and condition page starts here*/  
+.termsandcondition-main{
+  height: 400px;
+  background-image: url('mixed_fruits_and_veggies.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+.t-c1 h1{
+font-size: 40px;
+}
+.t-c1 h2{
+  font-size: 30px;
+  }
+  .t-c1 p{
+    font-size: 25px;
+    }
+.t-c1{
+  padding: 20px;
+height: 4900px;
+background-image: url('cheap_diagonal_fabric.png');
+}
+/*Styling for terms and condition page ends here*/
+
+/*Styling for privacy policy page starts here*/  
+.privacypolicy-main{
+  height: 400px;
+  background-image: url('fruits_only.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+.p-p1{
+height: 3500px;
+background-image: url('cheap_diagonal_fabric.png');
+padding: 20px;
+}
+.p-p1 h1{
+  font-size: 40px;
+  text-align: justify;
+}
+.p-p1 p{
+  font-size: 22px;
+  text-align: justify;
+}
+.p-p1 ul{
+  font-size: 22px;
+  text-align: justify;
+}
+/*Styling for privacy policy page ends here*/
+
+/*Styling for about us page starts here*/ 
+.aboutus-main{
+  height: 750px;
+  background-image: url('subtle_white_mini_waves.png');
+}
+
+.au-slideshow-container {
+  position: relative;
+}
+
+.column-au-main {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 900px; /* Should be removed. Only for demonstration */
+  background-image: url('cheap_diagonal_fabric.png');
+  padding: 50px;
+}
+.column-au-main p{
+  font-size: 25px;
+  text-align: justify;
+}
+
+/* Clear floats after the columns */
+.row-au-main:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-image: url('cheap_diagonal_fabric.png');
+}
+.column-au-main img{
+height: 600px; 
+width: 540px; 
+float: right;
+padding: 20px;
+}
+
+
+/* Slides */
+.au-mySlides {
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+.au-2{
+  height: 900px;
+}
+.au-3{
+  height: 300px;
+  background-image: url('subtle_white_mini_waves.png');
+  text-align: center;
+}
+/*Styling for about us page ends here*/ 

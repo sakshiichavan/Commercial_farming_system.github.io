@@ -1,0 +1,167 @@
+<html>
+
+<head>
+  <title>ABOUT US</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css"  href="css/style.css"> 
+<link rel="icon" href="logo.png" type="image/icon type">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Ropa+Sans&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+
+  <div class="row-navbar">
+    <div class="column0-navbar">
+      <div class="row-navbar" style="height:50px; width: 100%; background-image: url('fabric-light-bg.jpg');"></div>
+      <div class="row-navbar" style="height:58px; width: 100%; background-color: #333;"></div>
+      <div class="row-navbar" style="height:50px; width: 100%; background-color: #9f9f63;"></div>
+    </div>
+    <div class="column1-navbar">
+    <img src="logo -1.png" style="height: 100%; width: 100%;">
+    </div>
+    <div class="column2-navbar" style="background-image: url('fabric-light-bg.jpg');">
+        <div class="row" style="height:50px; width: 100%;" style="background-image: url('fabric-light-bg.jpg');"></div>
+
+        <div class="row-navbar" style="height:58px; width: 100%;">
+            <div class="navbar">
+                <a href="aboutus.html">About us</a>
+                <a href="receipes.html">Eat & Be Well</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Book A Farm Box
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content1">
+                    <a href="farmbox.html">Purchase a Farm Box</a>
+                    <a href="gift.html">Gift a Farm Box</a>
+                  </div>
+                </div> 
+                <div class="dropdown">
+                  <button class="dropbtn">Learn Online 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content2">
+                    <a href="fc.html">Field Crop</a>
+                    <a href="horticulture.html">Horticulture</a>
+                    <a href="animalhusbandary.html">Animal Husbandary</a>
+                    <a href="organicfarming.html">Organic Farming</a>
+                  </div>
+                </div> 
+                <a href="index.html">Home</a>
+              </div>
+        <div class="row-navbar" style="height:54px; width: 100%; background-color: #9f9f63;">
+        <text style="font-size: 25px;"> ★ As the COVID-19 lockdown continues, at Fresh Field, we are committed to strengthening our safety measures every day. </text> 
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="aboutus-main">
+    <div class="rec">
+      <img class="mySlides1" src="au-1.jpg">
+      <img class="mySlides1" src="au-2.jpg">
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides1");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
+
+<div class="au-slideshow-container">
+  <center><img src="dottedline-gold.png"><img src="dottedline-gold.png"><img src="dottedline-gold.png"><img src="dottedline-gold.png"><img src="dottedline-gold.png"><img src="dottedline-gold.png"><img src="dottedline-gold.png"></center>
+  <div class="au-mySlides">
+    <q>OUR FARM THEN: Our Capay Organic farm was started with 20 acres of star thistle and a dream. Inspired by the idea of farming organically and sustainably, our parents Kathy Barsotti and Martin Barnes started the tradition that we carry on today.</q>
+  </div>
+  <div class="au-mySlides">
+    <q>OUR FARM NOW: As stewards of the land, we continue our parents’ mission to connect local farms and communities together in a method that is environmentally and economically sustainable. Every day, we are humbled to carry on this tradition and watch the support grow, thanks to you!</q>
+  </div>
+  <center><img src="dottedline-gold.png"><img src="dottedline-gold.png"><img src="dottedline-gold.png"><img src="dottedline-gold.png"><img src="dottedline-gold.png"><img src="dottedline-gold.png"><img src="dottedline-gold.png"></center>
+</div>
+  
+  <script>
+  var slideIndex = 0;
+  showSlides(slideIndex);
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("au-mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}  
+    slides[slideIndex-1].style.display = "block";  
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+  </script>
+</div>
+
+
+<div class="au-2">
+  <div class="row-au-main">
+    <div class="column-au-main">
+      <img src="au-11.jpg">
+    </div>
+    <div class="column-au-main">
+      <h1>CERTIFIED ORGANIC</h1> 
+      <p>“Try this, it’s organic!” As a kid, customers would stop by our family's farmers market booth, sample the local produce this farm boy was peddling and ask: “What does organic mean?”</p>
+      <p>As it was explained to me by my parents, I would respond: “It’s grown without synthetic fertilizers or pesticides.” In the 1980s, the organic movement was just taking hold and its roots were with small family farms that were selling produce directly to the public (like the farm I was born and raised on in California’s rural western Yolo County).</p>
+      <p>In general, if an item can be found in nature, it can often be considered organic. If the item has been chemically altered from the form in which it was found in nature, it is likely prohibited for use in organic agriculture.</p>
+      <p>Today the phrase “Certified Organic” is legally defined by the USDA’s National Organic Program (NOP) and certified by third-party organic certifiers that are accredited by the NOP. Organic Certification is strictly an amendment-based standard, meaning there is a list of items that can be used on organic farms — everything else is prohibited.</p>  
+      <p>Crops are organic when they are grown on a piece of land without any non-organic material applied to the land for the past three years. Each year, a certified organic farm is inspected by a third-party certifier who walks fields, reviews receipts and inspects existing inventory and other records to verify that an organic farm is only using materials permitted by the National Organic Program’s standards.</p>  
+      <p>Before the NOP ever existed, the CCOF had the authority to expect more from the organic standard.</p>
+    </div>
+  </div>
+</div>
+
+<div class="au-3">
+  <br>
+  <h1>Sustainable Agriculture</h1>
+  <center><img src="dottedline-gold.png"></center>
+  <br>
+  <q>The best and most sustainable farms and food systems are the ones that focus on the right blend of economic and environmental sustainability – these are the food systems that will nurture the unborn generations from whom we are borrowing these resources.</q>
+</div>
+
+
+
+
+      <div class="footer2">
+        <div class="social" style="background-image: url('paperboard-texture1.jpg')">
+          <center>
+            <a href="http://blog.farmfreshtoyou.com/"><img src="social-blogger.png"></a><a href="http://gmail.com"><img src="social-email.png"></a><a href="http://www.facebook.com"><img src="social-facebook.png"></a><a href="http://www.instagram.com"><img src="social-instagram.png"></a><a href="http://www.twitter.com"><img src="social-twitter.png"></a><a href="http://www.pinterest.com"><img src="social-pinterest.png"></a><a href="http://www.youtube.com"><img src="social-youtube.png"></a>
+          </center>
+        </div>
+        <div class="footercol" style="background-color: #9f9f63;">
+          <h2>GET IN TOUCH</h2>
+          <p>Call us: 020-12345678</p>
+          <p>contactus@farmfreshtoyou.com</p>
+        </div>
+        <div class="footercol" style="background-color: #9f9f63;">
+          <h2>PROUD TO BE</h2>
+          <center>
+          <img src="log1.png">&nbsp;&nbsp;<img src="log2.png">&nbsp;&nbsp;<img src="log3.png">
+          </center>
+        </div>
+        <div class="footercol" style="background-color: #9f9f63;">
+          <h2>READ</h2>
+          <a href="termsandcondition.html"><p>Terms and conditions>>></p></a>
+          <a href="privacypolicy.html"><p>Privacy policy>>></p></a>
+        </div> 
+      </div>
+        <div style="background-color: #838357;" class="footer3">
+          &nbsp;&nbsp; &copy; 2021 Fresh Field Website &nbsp; <span class="separator">|</span> Design by <a
+             href="http://www.freshfieldddd.com">Fresh Field Team</a>
+        </div>
+      </div>
+</body>
+</html>
